@@ -139,7 +139,7 @@ export default function HomePage() {
         <div className="relative z-10 mx-auto max-w-7xl px-4 pb-24 pt-20 sm:px-6 sm:pt-24 lg:px-8 lg:pb-28">
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3.5 py-2 text-sm font-medium text-slate-600">
-              <span className="h-2 w-2 rounded-full bg-emerald-500" />7 patterns
+              <span className="h-2 w-2 rounded-full bg-emerald-500" />9 patterns
               quan trọng để học DSA
             </div>
 
@@ -224,7 +224,7 @@ export default function HomePage() {
             <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-slate-100">
               <Timer size={20} className="text-slate-700" />
             </div>
-            <p className="text-2xl font-bold tracking-tight">7</p>
+            <p className="text-2xl font-bold tracking-tight">9</p>
             <p className="mt-1 text-sm text-slate-500">
               nhóm thuật toán & pattern
             </p>

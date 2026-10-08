@@ -5,6 +5,7 @@ import {
   CheckCircle2,
   ChevronRight,
   GitBranch,
+  GitFork,
   Layers3,
   Link2,
   Search,
@@ -84,6 +85,26 @@ const algorithmGroups = [
     difficulty: "Trung bình",
     path: "/algorithms/trees",
     concepts: ["BST", "Balance Tree"],
+  },
+  {
+    number: "08",
+    title: "Tries",
+    description:
+      "Tối ưu tra cứu chuỗi và tìm kiếm tiền tố (Prefix Tree), ứng dụng trong gợi ý từ tự động và kiểm tra chính tả.",
+    icon: GitFork, // Hoặc dùng Network / FolderTree
+    difficulty: "Trung bình",
+    path: "/algorithms/tries",
+    concepts: ["Prefix Tree", "Autocomplete"],
+  },
+  {
+    number: "09",
+    title: "Backtracking",
+    description:
+      "Áp dụng kỹ thuật Quay lui để duyệt không gian lời giải, kết hợp Cắt tỉa nhánh cận (Pruning) cho các bài toán tổ hợp.",
+    icon: GitBranch, // Hoặc dùng Undo2 / RotateCcw
+    difficulty: "Khó",
+    path: "/algorithms/backtracking",
+    concepts: ["Recursion", "Pruning"],
   },
 ];
 

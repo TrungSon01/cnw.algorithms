@@ -9,6 +9,8 @@ import SlidingWindow from "./Pages/SlidingWindow/SlidingWindow";
 import LinkedList from "./Pages/LinkedList/LinkedList";
 import Tree from "./Pages/Tree/Tree";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import Tries from "./Pages/Tries/Tries";
+import Backtracking from "./Pages/Backtracking/Backtracking";
 
 function NotFoundPage() {
   return (
@@ -32,6 +34,8 @@ export default function App() {
         <Route path="/algorithms/sliding-window" element={<SlidingWindow />} />
         <Route path="/algorithms/linked-list" element={<LinkedList />} />
         <Route path="/algorithms/trees" element={<Tree />} />
+        <Route path="/algorithms/tries" element={<Tries />} />
+        <Route path="/algorithms/backtracking" element={<Backtracking />} />
         <Route path="*" element={<NotFoundPage />} />{" "}
       </Routes>{" "}
     </BrowserRouter>

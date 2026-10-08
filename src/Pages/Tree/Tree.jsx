@@ -2710,7 +2710,6 @@ export default function Tree() {
               title="Tổng kết Tree"
               description="Đây là toàn bộ kiến thức từ Tree cơ bản đến ba bài NeetCode."
             />
-
             <div className="grid gap-4 md:grid-cols-2">
               <div className="rounded-2xl border border-slate-200 bg-white p-6">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-100">
@@ -2784,9 +2783,7 @@ export default function Tree() {
                 </p>
               </div>
             </div>
-
             <h3 className="mt-10 text-xl font-bold">Ba bài NeetCode đã học</h3>
-
             <div className="mt-6 overflow-x-auto rounded-2xl border border-slate-200 bg-white">
               <table className="w-full min-w-[820px] text-sm">
                 <thead className="bg-slate-50">
@@ -2862,7 +2859,6 @@ export default function Tree() {
                 </tbody>
               </table>
             </div>
-
             <InfoBox type="important" title="Mental model cuối cùng">
               Khi gặp Binary Tree:
               <br />
@@ -2877,7 +2873,6 @@ export default function Tree() {
               <br />
               <strong>5.</strong> Return cho parent.
             </InfoBox>
-
             <div className="mt-8 rounded-3xl bg-slate-950 p-6 text-white sm:p-8">
               <p className="text-xs font-bold uppercase tracking-wider text-slate-500">
                 Tree roadmap
@@ -2926,15 +2921,15 @@ export default function Tree() {
               </Link>
 
               <Link
-                to="/"
+                to="/algorithms/tries"
                 className="group flex items-center justify-between rounded-2xl border border-slate-200 bg-white p-5 transition hover:border-slate-300 hover:shadow-lg"
               >
                 <div>
                   <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                    Finish
+                    Next
                   </p>
 
-                  <p className="mt-1 font-semibold">Tất cả thuật toán</p>
+                  <p className="mt-1 font-semibold">Tries</p>
                 </div>
 
                 <ArrowRight

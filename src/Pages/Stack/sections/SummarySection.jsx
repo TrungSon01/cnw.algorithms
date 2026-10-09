@@ -1,5 +1,12 @@
 import React from "react";
-import { ArrowDown, ArrowLeft, ArrowRight, Clock3, Layers, Target } from "lucide-react";
+import {
+  ArrowDown,
+  ArrowLeft,
+  ArrowRight,
+  Clock3,
+  Layers,
+  Target,
+} from "lucide-react";
 import { SectionTitle, InfoBox } from "../components/StackUI";
 
 export default function SummarySection() {
@@ -56,15 +63,13 @@ export default function SummarySection() {
           <h3 className="mt-4 text-lg font-bold">Matching</h3>
 
           <p className="mt-2 text-sm leading-6 text-slate-600">
-            Cặp mở/đóng và nested structure là dấu hiệu rất mạnh để nghĩ
-            tới Stack.
+            Cặp mở/đóng và nested structure là dấu hiệu rất mạnh để nghĩ tới
+            Stack.
           </p>
         </div>
       </div>
 
-      <h3 className="mt-10 text-xl font-bold">
-        Pattern của Valid Parentheses
-      </h3>
+      <h3 className="mt-10 text-xl font-bold">Pattern của Valid Parentheses</h3>
 
       <div className="my-6 grid gap-3 sm:grid-cols-4">
         {[
@@ -83,9 +88,7 @@ export default function SummarySection() {
 
             <p className="mt-3 font-semibold text-slate-900">{title}</p>
 
-            <p className="mt-1 font-mono text-sm text-slate-500">
-              {action}
-            </p>
+            <p className="mt-1 font-mono text-sm text-slate-500">{action}</p>
           </div>
         ))}
       </div>
@@ -153,8 +156,8 @@ export default function SummarySection() {
       </div>
 
       <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-        <a
-          href="/algorithms/array-hashing"
+        <Link
+          to="/algorithms/array-hashing"
           className="group flex flex-1 items-center justify-between rounded-2xl border border-slate-200 bg-white p-5 transition hover:border-slate-300 hover:shadow-lg"
         >
           <div className="flex items-center gap-3">
@@ -171,10 +174,10 @@ export default function SummarySection() {
               <p className="mt-1 font-semibold">Array & Hashing</p>
             </div>
           </div>
-        </a>
+        </Link>
 
-        <a
-          href="/algorithms/two-pointer"
+        <Link
+          to="/algorithms/two-pointer"
           className="group flex flex-1 items-center justify-between rounded-2xl border border-slate-200 bg-white p-5 transition hover:border-slate-300 hover:shadow-lg"
         >
           <div>
@@ -189,7 +192,7 @@ export default function SummarySection() {
             size={18}
             className="text-slate-400 transition-transform group-hover:translate-x-1"
           />
-        </a>
+        </Link>
       </div>
     </section>
   );

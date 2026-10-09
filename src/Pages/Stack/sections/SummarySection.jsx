@@ -8,6 +8,7 @@ import {
   Target,
 } from "lucide-react";
 import { SectionTitle, InfoBox } from "../components/StackUI";
+import { Link } from "react-router-dom";
 
 export default function SummarySection() {
   return (
